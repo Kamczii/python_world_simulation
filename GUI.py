@@ -25,7 +25,7 @@ class GUI(Frame):
     def make_gui(self):
         frame = Frame(self.master, width=self.world.width * self.SIZE)
         label = Label(frame, bg=COLORS.DEFAULT_GUI_BG,
-                      text="STUDENT INDEX: 184374\tCONTROL=←↕→\tSPECIAL=X\tSAVE=S\tLOAD=L\tQUIT=ESCAPE",
+                      text="STUDENT INDEX: \tCONTROL=←↕→\tSPECIAL=X\tSAVE=S\tLOAD=L\tQUIT=ESCAPE",
                       height=3)
         label.grid(row=0)
         frame.pack()
